@@ -1,9 +1,8 @@
 import ArxivButton from "./ArxivButton"
 import JournalButton from "./JournalButton"
 import "./ShortAuthorPublication.css"
-import { ABSTRACTS_BY_ARXIV_URL } from "../../data/shortAuthorPublications"
 
-export default function ShortAuthorPublication({ title, author, journal, doiUrl, arxivUrl }) {
+export default function ShortAuthorPublication({ title, author, journal, doiUrl, arxivUrl, abstract }) {
     return (
         <div
             className="border border-slate-300 bg-white rounded-xs text-center h-70 px-4 sm:px-8 md:px-12 lg:px-16 py-8 overflow-hidden flex flex-col"
@@ -16,7 +15,7 @@ export default function ShortAuthorPublication({ title, author, journal, doiUrl,
             </div>
             <div className="fade-down flex-1 w-full" style={{ overflow: 'hidden', display: 'flex', flexDirection: 'column', marginBottom: '-3rem' }}>
                 <p className="mt-2 w-full h-full">
-                    {ABSTRACTS_BY_ARXIV_URL[arxivUrl]}
+                    {abstract}
                 </p>
             </div>
         </div>

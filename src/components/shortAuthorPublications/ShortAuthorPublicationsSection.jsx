@@ -4,8 +4,10 @@ import ShortAuthorPublication from "./ShortAuthorPublication";
 import CollapsibleSection from "../CollapsibleSection";
 
 export default function ShortAuthorPublicationsSection() {
-    const shortAuthorPubJsons = SHORT_AUTHOR_PUBLICATIONS.map(bibtexCitation => parseCitation(bibtexCitation))
-    const shortAuthorPubs = shortAuthorPubJsons.map(sapj => <ShortAuthorPublication key={sapj.arxivUrl} {...sapj} />)
+    const shortAuthorPubs = SHORT_AUTHOR_PUBLICATIONS.map(pub => {
+        const parsedCitation = parseCitation(pub.bibtexCitation)
+        return <ShortAuthorPublication key={parsedCitation.arxivUrl} abstract={pub.abstract} {...parsedCitation} />
+    })
 
     return (
         <CollapsibleSection
