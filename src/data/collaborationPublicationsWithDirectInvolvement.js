@@ -14,8 +14,11 @@ export const COLLABORATION_PUBLICATIONS_WITH_DIRECT_INVOLVEMENT = [
     pages = "9",
     year = "2025"
 }`,
-        involvementExplanation: "",
-        outreachMaterialLinks: []
+        involvementExplanation: "This is a test explanation",
+        outreachMaterialLinks: [
+            { title: "Link 1", url: "https://google.com" },
+            { title: "Link 2", url: "https://nasa.gov" }
+        ]
     },
     {
         bibtexCitation: `@article{LIGOScientific:2021sio,
