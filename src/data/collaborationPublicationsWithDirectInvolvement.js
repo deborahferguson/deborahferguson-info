@@ -14,11 +14,8 @@ export const COLLABORATION_PUBLICATIONS_WITH_DIRECT_INVOLVEMENT = [
     pages = "9",
     year = "2025"
 }`,
-        involvementExplanation: "This is a test explanation",
-        outreachMaterialLinks: [
-            { title: "Link 1", url: "https://google.com" },
-            { title: "Link 2", url: "https://nasa.gov" }
-        ]
+        involvementExplanation: "Coordinator for Numerical Relativity and Accuracy Requirement sections",
+        outreachMaterialLinks: []
     },
     {
         bibtexCitation: `@article{LIGOScientific:2021sio,
@@ -36,8 +33,32 @@ export const COLLABORATION_PUBLICATIONS_WITH_DIRECT_INVOLVEMENT = [
     pages = "084080",
     year = "2025"
 }`,
-        involvementExplanation: "",
+        involvementExplanation: "Internal reviewer for ringdown analysis",
         outreachMaterialLinks: []
+    },
+    {
+        bibtexCitation:`@article{LIGOScientific:2021qlt,
+    author = "Abbott, R. and others",
+    collaboration = "LIGO Scientific, KAGRA, VIRGO",
+    title = "{Observation of Gravitational Waves from Two Neutron Star{\textendash}Black Hole Coalescences}",
+    eprint = "2106.15163",
+    archivePrefix = "arXiv",
+    primaryClass = "astro-ph.HE",
+    reportNumber = "LIGO Document P2000357",
+    doi = "10.3847/2041-8213/ac082e",
+    journal = "Astrophys. J. Lett.",
+    volume = "915",
+    number = "1",
+    pages = "L5",
+    year = "2021"
+}`,
+        involvementExplanation: "Produced outreach materials",
+        outreachMaterialLinks: [
+            { title: "LIGO Gallery GW200105 Still", url: "https://www.ligo.caltech.edu/image/ligo20210629c" },
+            { title: "LIGO Gallery NSBH Disruption Still", url: "https://www.ligo.caltech.edu/image/ligo20210629a" },
+            { title: "GW250105 YouTube Video", url: "https://www.youtube.com/watch?v=StO_RDscqXc"},
+            { title: "NSBH Disruption YouTube Video", url: "https://www.youtube.com/watch?v=VwWLpQ4JFIc"}
+        ]
     },
     {
         bibtexCitation: `@article{LIGOScientific:2020tif,
@@ -55,7 +76,29 @@ export const COLLABORATION_PUBLICATIONS_WITH_DIRECT_INVOLVEMENT = [
     pages = "122002",
     year = "2021"
 }`,
-        involvementExplanation: "",
+        involvementExplanation: "Internal reviewer for ringdown analysis",
         outreachMaterialLinks: []
+    },
+    {
+        bibtexCitation: `@article{LIGOScientific:2020iuh,
+    author = "Abbott, R. and others",
+    collaboration = "LIGO Scientific, Virgo",
+    title = "{GW190521: A Binary Black Hole Merger with a Total Mass of $150  M_{\odot}$}",
+    eprint = "2009.01075",
+    archivePrefix = "arXiv",
+    primaryClass = "gr-qc",
+    doi = "10.1103/PhysRevLett.125.101102",
+    journal = "Phys. Rev. Lett.",
+    volume = "125",
+    number = "10",
+    pages = "101102",
+    year = "2020"
+}`,
+        involvementExplanation: "Produced outreach materials",
+        outreachMaterialLinks: [
+            { title: "LIGO Gallery Simulation Still", url: "https://www.ligo.caltech.edu/image/ligo20200902f" },
+            { title: "LIGO Gallery Simulation Video", url: "https://www.ligo.caltech.edu/video/ligo20200902v2" },
+            { title: "YouTube Video", url: "https://www.youtube.com/watch?v=p43sb92YOww"}
+        ]
     }
 ]

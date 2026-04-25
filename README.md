@@ -1,6 +1,7 @@
 # DF-INFO
 
 ## Dev Notes
+- Install dependencies with `npm install`
 - Run development server with `npm run dev`
 - Icons from [heroicons](https://heroicons.com)
 
