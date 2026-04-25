@@ -1,4 +1,4 @@
-# DF-INFO
+# deborahferguson-info
 
 ## Dev Notes
 - Install dependencies with `npm install`
