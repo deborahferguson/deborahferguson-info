@@ -54,7 +54,7 @@ export default function CollaborationPublication({ title, author, collaboration,
                             href={link.url}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="inline-block mr-1 px-1.5 py-1 bg-slate-300 hover:bg-slate-400 text-slate-700 rounded-md text-xs"
+                            className="inline-block mr-1 my-0.5 px-1.5 py-1 bg-slate-300 hover:bg-slate-400 text-slate-700 rounded-md text-xs"
                         >
                             {link.title}
                         </a>
