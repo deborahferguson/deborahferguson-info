@@ -32,7 +32,7 @@ export default function CollapsibleSection({ name, items, gridClassName, itemsTo
                 {content}
             </div>
 
-            <div className="flex justify-center">
+            <div className="flex justify-center mt-2">
                 {!showAll && <ShowAllButton onClick={handleShowAll} quantity={items.length} />}
                 {showAll && <ShowFewerButton onClick={handleShowFewer} />}
             </div>
