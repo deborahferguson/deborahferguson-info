@@ -7,6 +7,7 @@ export default function JournalButton({ journal, doiUrl }) {
     const jossRgb = "border-[rgb(46,41,78)] text-[rgb(46,41,78)] hover:bg-[rgb(46,41,78)] hover:text-white"
     const cqgRgb = "border-[rgb(149,200,188)] text-[rgb(149,200,188)] hover:bg-[rgb(149,200,188)] hover:text-white"
     const prlRgb = "border-[rgb(0,180,141)] text-[rgb(0,180,141)] hover:bg-[rgb(0,180,141)] hover:text-white"
+    const apjRgb = "border=[rgb(63,84,143)] text-[rgb(63,84,143)] hover:bg-[rgb(63,84,143)] hover:text-white"
 
     const journalAbbreviation = JOURNALS[journal]
     if (journalAbbreviation === JOURNAL_ABBREVIATIONS.PRD) {
@@ -17,8 +18,9 @@ export default function JournalButton({ journal, doiUrl }) {
         buttonCss += cqgRgb
     } else if (journalAbbreviation === JOURNAL_ABBREVIATIONS.PRL) {
         buttonCss += prlRgb
+    } else if (journalAbbreviation === JOURNAL_ABBREVIATIONS.APJ) {
+        buttonCss += apjRgb
     }
-
 
     return (
         <a

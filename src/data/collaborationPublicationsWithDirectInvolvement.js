@@ -1,4 +1,6 @@
-@article{LISAConsortiumWaveformWorkingGroup:2023arg,
+export const COLLABORATION_PUBLICATIONS_WITH_DIRECT_INVOLVEMENT = [
+    {
+        bibtexCitation: `@article{LISAConsortiumWaveformWorkingGroup:2023arg,
     author = "Afshordi, Niayesh and others",
     collaboration = "LISA Consortium Waveform Working Group",
     title = "{Waveform modelling for the Laser Interferometer Space Antenna}",
@@ -11,9 +13,12 @@
     number = "1",
     pages = "9",
     year = "2025"
-}
-
-@article{LIGOScientific:2021sio,
+}`,
+        involvementExplanation: "",
+        outreachMaterialLinks: []
+    },
+    {
+        bibtexCitation: `@article{LIGOScientific:2021sio,
     author = "Abbott, R. and others",
     collaboration = "LIGO Scientific, VIRGO, KAGRA",
     title = "{Tests of General Relativity with GWTC-3}",
@@ -27,9 +32,12 @@
     number = "8",
     pages = "084080",
     year = "2025"
-}
-
-@article{LIGOScientific:2020tif,
+}`,
+        involvementExplanation: "",
+        outreachMaterialLinks: []
+    },
+    {
+        bibtexCitation: `@article{LIGOScientific:2020tif,
     author = "Abbott, R. and others",
     collaboration = "LIGO Scientific, Virgo",
     title = "{Tests of general relativity with binary black holes from the second LIGO-Virgo gravitational-wave transient catalog}",
@@ -43,4 +51,8 @@
     number = "12",
     pages = "122002",
     year = "2021"
-}
+}`,
+        involvementExplanation: "",
+        outreachMaterialLinks: []
+    }
+]

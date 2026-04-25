@@ -130,6 +130,19 @@ const SHORT_AUTHOR_PUBLICATIONS = [
     number = "6",
     pages = "064027",
     year = "2018"
+}`,
+    `@article{2017ApJ...843..141F,
+    author = "Ferguson, Deborah and Gardner, Susan and Yanny, Brian",
+    title = "{Milky Way Tomography with K and M Dwarf Stars: The Vertical Structure of the Galactic Disk}",
+    eprint = "1706.01900",
+    archivePrefix = "arXiv",
+    primaryClass = "astro-ph.GA",
+    doi = "10.3847/1538-4357/aa77fd",
+    journal = "Astrophys. J.",
+    volume = "843",
+    number = "2",
+    pages = "141",
+    year = "2017"
 }`
 ]
 
@@ -143,26 +156,8 @@ const ABSTRACTS_BY_ARXIV_URL = {
     "https://arxiv.org/abs/2006.04272": "Future detectors such as LISA promise signal-to-noise ratios potentially in the thousands and data containing simultaneous signals. Accurate numerical relativity waveforms will be essential to maximize the science return. A question of interest to the broad gravitational wave community is: Are the numerical relativity codes ready to face this challenge? Towards answering this question, we provide a new criteria to identify the minimum resolution a simulation must have as a function of signal-to-noise ratio in order for the numerical relativity waveform to be indistinguishable from a true signal. This criteria can be applied to any finite-diﬀerencing numerical relativity code with multiple simulations of diﬀering resolutions for the desired binary parameters and waveform length. We apply this criteria to binary systems of interest with the fourth-order MAYA code to obtain the first estimate of the minimum resolution a simulation must have to be prepared for next generation detectors.",
     "https://arxiv.org/abs/2004.11979": "A popular approach in numerical simulations of black hole binaries is to model black holes as punctures in the fabric of spacetime. The location and the properties of the black hole punctures are tracked with apparent horizons, namely outermost marginally outer trapped surfaces (MOTSs). As the holes approach each other, a common apparent horizon suddenly appears, engulfing the two black holes and signaling the merger. The evolution of common apparent horizons and their connection with gravitational wave emission have been studied in detail with the framework of dynamical horizons. We present a study of the dynamics of the MOTSs and their punctures in the interior of the final black hole. The study focuses on head-on mergers for various initial separations and mass ratios. We find that MOTSs intersect for most of the parameter space. We show that for those situations in which they do not, it is because of the singularity avoidance property of the moving puncture gauge condition used in the study. Although we are unable to carry out evolutions that last long enough to show the ultimate fate of the punctures, our results suggest that MOTSs always intersect and that at late times their overlap is only partial. As a consequence, the punctures inside the MOTSs, although close enough to each other to act eﬀectively as a single puncture, do not merge.",
     "https://arxiv.org/abs/1905.03756": "Gravitational waves emitted during the merger of two black holes carry information about the remnant black hole, namely its mass and spin. This information is typically found from the ringdown radiation as the black hole settles to a final state. We find that the remnant black hole spin is already known at the peak amplitude of the gravitational wave strain. Using this knowledge, we present a new method for measuring the final spin that is template independent, using only the chirp mass, the instantaneous frequency of the strain and its derivative at maximum amplitude, all template independent.",
-    "https://arxiv.org/abs/1712.05836": "In response to LIGO’s observation of GW170104, we performed a series of full numerical simulations of binary black holes, each designed to replicate likely realizations of its dynamics and radiation. These simulations have been performed at multiple resolutions and with two independent techniques to solve Einstein’s equations. For the nonprecessing and precessing simulations, we demonstrate the two techniques agree mode by mode, at a precision substantially in excess of statistical uncertainties in current LIGO’s observations. Conversely, we demonstrate our full numerical solutions contain information which is not accurately captured with the approximate phenomenological models commonly used to infer compact binary parameters. To quantify the impact of these diﬀerences on parameter inference for GW170104 specifically, we compare the predictions of our simulations and these approximate models to LIGO’s observations of GW170104."
+    "https://arxiv.org/abs/1712.05836": "In response to LIGO’s observation of GW170104, we performed a series of full numerical simulations of binary black holes, each designed to replicate likely realizations of its dynamics and radiation. These simulations have been performed at multiple resolutions and with two independent techniques to solve Einstein’s equations. For the nonprecessing and precessing simulations, we demonstrate the two techniques agree mode by mode, at a precision substantially in excess of statistical uncertainties in current LIGO’s observations. Conversely, we demonstrate our full numerical solutions contain information which is not accurately captured with the approximate phenomenological models commonly used to infer compact binary parameters. To quantify the impact of these diﬀerences on parameter inference for GW170104 specifically, we compare the predictions of our simulations and these approximate models to LIGO’s observations of GW170104.",
+    "https://arxiv.org/abs/1706.01900": "We use the number density distributions of K and M dwarf stars with vertical height from the Galactic disk, determined using observations from the Sloan Digital Sky Survey, to probe the structure of the Milky Way disk across the survey’s footprint. Using photometric parallax as a distance estimator we analyze a sample of several million disk stars in matching footprints above and below the Galactic plane, and we determine the location and extent of vertical asymmetries in the number counts in a variety of thin- and thick- disk subsamples in regions of some 200 square degrees within 2 kpc in vertical distance from the Galactic disk. These disk asymmetries present wave-like features as previously observed on other scales and at other distances from the Sun. We additionally explore the scale height of the disk and the implied oﬀset of the Sun from the Galactic plane at diﬀerent locations, noting that the scale height of the disk can diﬀer significantly when measured using stars only above or only below the plane. Moreover, we compare the shape of the number density distribution in the north for diﬀerent latitude ranges with a fixed range in longitude and find the shape to be sensitive to the selected latitude window. We explain why this may be indicative of a change in stellar populations in the latitude regions compared, possibly allowing access to the systematic metallicity diﬀerence between thin- and thick- disk populations through photometry."
 }
 
 export { SHORT_AUTHOR_PUBLICATIONS, ABSTRACTS_BY_ARXIV_URL }
-
-// @ARTICLE{2017ApJ...843..141F,
-//        author = "Ferguson, Deborah and Gardner, Susan and Yanny, Brian",
-//         title = "{Milky Way Tomography with K and M Dwarf Stars: The Vertical Structure of the Galactic Disk}",
-//       journal = "\apj",
-//      keywords = "galaxies: evolution, galaxies: structure, Astrophysics - Astrophysics of Galaxies",
-//          year = 2017,
-//         month = jul,
-//        volume = "843",
-//        number = "2",
-//           eid = "141",
-//         pages = "141",
-//           doi = "10.3847/1538-4357/aa77fd",
-// archivePrefix = "arXiv",
-//        eprint = "1706.01900",
-//  primaryClass = "astro-ph.GA",
-//        adsurl = "https://ui.adsabs.harvard.edu/abs/2017ApJ...843..141F",
-//       adsnote = "Provided by the SAO/NASA Astrophysics Data System"
-// }
