@@ -6,7 +6,7 @@ export const LEADERSHIP_POSITIONS = [
     },
     {
         body: "APS Division of Gravity Executive Committee",
-        period: "2023 - Present",
+        period: "2023 - 2026",
         positions: "Member at Large, Chair of Seminar Committee"
     }
 ]

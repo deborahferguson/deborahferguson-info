@@ -2,6 +2,41 @@ import ContinentIcon from "../components/conferencePresentations/ContinentIcon";
 
 export const INVITED_TALKS = [
     {
+        title: "Using Numerical Relativity for Gravitational-Wave Astronomy",
+        date: "April 10, 2026",
+        venue: "Colloquium at the University of Kentucky",
+        location: "Lexington, Kentucky",
+        continentIcon: ContinentIcon.AMERICAS
+    },
+    {
+        title: "Gravitational-Wave Astronomy of Today and Tomorrow",
+        date: "March 31, 2026",
+        venue: "Colloquium at Saint Anselm College",
+        location: "Goffstown, New Hampshire",
+        continentIcon: ContinentIcon.AMERICAS
+    },
+    {
+        title: "Preparing Numerical Relativity for the Next Generation of Gravitational-Wave Observatories",
+        date: "March 4, 2026",
+        venue: "Seminar at the University of Massachusetts Dartmouth",
+        location: "Darmouth, Massachusetts",
+        continentIcon: ContinentIcon.AMERICAS
+    },
+    {
+        title: "Using Numerical Relativity to Study the Gravitational Waves of Spinning Black Holes",
+        date: "January 9, 2026",
+        venue: "Extremal Black Holes ICERM Workshop",
+        location: "Providence, Rhode Island",
+        continentIcon: ContinentIcon.AMERICAS
+    },
+    {
+        title: "The Future of Gravitational Wave Detection: A Numerical Relativity Perspective",
+        date: "November 20, 2025",
+        venue: "Colloquium at Louisiana State University",
+        location: "Baton Rouge, Louisiana",
+        continentIcon: ContinentIcon.AMERICAS
+    },
+    {
         title: "Current Status and Future Plans for the Einstein Toolkit",
         date: "June 18, 2025",
         venue: "Gregynog Numerical Relativity 2025",
