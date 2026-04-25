@@ -56,7 +56,7 @@ export const COLLABORATION_PUBLICATIONS_WITH_DIRECT_INVOLVEMENT = [
         outreachMaterialLinks: [
             { title: "LIGO Gallery GW200105 Still", url: "https://www.ligo.caltech.edu/image/ligo20210629c" },
             { title: "LIGO Gallery NSBH Disruption Still", url: "https://www.ligo.caltech.edu/image/ligo20210629a" },
-            { title: "GW250105 YouTube Video", url: "https://www.youtube.com/watch?v=StO_RDscqXc"},
+            { title: "GW200105 YouTube Video", url: "https://www.youtube.com/watch?v=StO_RDscqXc"},
             { title: "NSBH Disruption YouTube Video", url: "https://www.youtube.com/watch?v=VwWLpQ4JFIc"}
         ]
     },
