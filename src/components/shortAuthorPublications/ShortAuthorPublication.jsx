@@ -14,7 +14,7 @@ export default function ShortAuthorPublication({ title, author, journal, doiUrl,
                 <JournalButton journal={journal} doiUrl={doiUrl} />
                 <ArxivButton arxivUrl={arxivUrl} />
             </div>
-            <div className="fade-down flex-1 w-full" style={{ overflow: 'hidden', display: 'flex', flexDirection: 'column', marginBottom: '-2rem' }}>
+            <div className="fade-down flex-1 w-full" style={{ overflow: 'hidden', display: 'flex', flexDirection: 'column', marginBottom: '-3rem' }}>
                 <p className="mt-2 w-full h-full">
                     {ABSTRACTS_BY_ARXIV_URL[arxivUrl]}
                 </p>
